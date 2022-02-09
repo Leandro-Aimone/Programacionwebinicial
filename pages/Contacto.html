@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+
+    <title>Contacto</title>
+</head>
+<body>
+    
+    <header class="header" id="name">
+        <div class="logo">
+            <a href="../index.html" class="linkLogo">
+                <h1>utn</h1>
+            </a>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <ul class="MenuPrincipal">
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
+            <li>
+                <a href="./Noticias.html">Noticias</a>
+            </li>
+            <li>
+                <a href="./Masnoticias.html">Mas Noticias</a>
+            </li>
+            <li>
+                <a href="./Contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="mainContent">
+        <section id="portada">
+            <h2>Contacto con la empresa</h2>
+            <form method="post" id="FormContacto">
+                <div>
+                    <label>Nombre: </label>
+                    <input type="text" name="nombre" placeholder="Introduzca por favor su Nombre" required>
+                </div>
+                <div>
+                    <label>Email: </label>
+                    <input type="email" name="Email" placeholder="Ingrese su email" required>
+                </div>
+                <div>
+                    Teléfono: <label> </label>
+                    <input type="tel" name="telefono" required>  
+                </div>
+                <div>
+                    <label>Provincia: </label>
+                    <select name="provincia">
+                    <option disabled>Esta opcion no se selecciona</option>
+                    <option>Seleccione su provincia</option>
+                    <option value="caba">CABA</option>
+                    <option value="Santa fe">Santa fe</option>
+                    <option value="Mza">Mendoza</option>
+                </select>
+                </div> 
+                <div>
+                    <label>Comentarios: </label>
+                    <textarea name="Comentario"cols="30" rows="10" required></textarea>
+                </div>
+                <div>
+                    <label>Password: </label>
+                    <input type="password" name="passwoed" id="">
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox" name="">
+                        Quiero recibir información y llenarme de Spam
+                    </label>
+                </div>
+
+                <div>
+                    <input type="submit" value="Escribenos!!" class="btn.envio">
+                </div>
+
+            
+            </form>
+
+        </section>
+    </main>
+
+    <Footer>
+        <p>
+            &copy; 2022 :::: Derechos Reservados
+        </p> 
+        <p>
+            Desarrollado por <a href="miSitio.com" target="_blank">Aimone Leandro</a>
+        </p>
+        <p>
+            Enviame un <a href="mailto:aimoneleandro@gmail.com">mail</a>
+        </p>
+    </Footer>
+
+</body>
+</html>
